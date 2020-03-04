@@ -55,7 +55,7 @@ def reduce_to_any_true(array)
   new_array = []
   array.each do |x| 
   if x != false && x != nil
-    array << x
+    new_array << x
   end 
   if new_array.size > 0 
     return false
