@@ -60,5 +60,6 @@ def reduce_to_any_true(array)
 end
   if new_array.size > 0 
     return true
+  else return false
 end
 end 
