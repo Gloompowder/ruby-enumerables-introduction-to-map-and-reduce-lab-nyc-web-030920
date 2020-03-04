@@ -58,7 +58,7 @@ def reduce_to_any_true(array)
     new_array << x
   end 
   if new_array.size > 0 
-    return false
+    return true
   end
 end
 end 
