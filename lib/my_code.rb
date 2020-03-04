@@ -57,8 +57,8 @@ def reduce_to_any_true(array)
   if x != false && x != nil
     new_array << x
   end 
+end
   if new_array.size > 0 
     return true
-  end
 end
 end 
